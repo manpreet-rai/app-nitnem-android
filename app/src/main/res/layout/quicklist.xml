@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?mwhite">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/quickListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+    <Button
+        android:id="@+id/customizeButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginBottom="15dp"
+        android:text="+"
+        android:fontFamily="@font/opensanssemibold"
+        android:textSize="34dp"
+        android:textColor="?mwhite"
+        android:background="@drawable/customize_btn_background"
+        android:layout_below="@id/quickListView"/>
+
+</RelativeLayout>

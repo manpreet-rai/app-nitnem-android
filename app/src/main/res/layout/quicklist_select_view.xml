@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/selectGurbaniCell"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/checkMark"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_checkmark"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:tint="@color/checkmark_color" />
+        <TextView
+            android:id="@+id/selectGurbaniName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="Japji Sahib"
+            android:textSize="18dp"
+            android:fontFamily="@font/opensansregular"
+            android:textColor="@color/gurbani_select_color"
+            android:layout_toRightOf="@id/checkMark"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/selectGurbaniEmptyCell"
+        android:layout_width="match_parent"
+        android:layout_height="72dp" />
+
+</RelativeLayout>

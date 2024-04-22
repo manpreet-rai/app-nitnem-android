@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Nitnem</string>
+    <string name="sharedPrefs">sharedPrefs</string>
+    <string name="mode">mode</string>
+    <string name="imageID">imageID</string>
+    <string name="phase">phase</string>
+
+    <string name="morningList">morningList</string>
+    <string name="dayList">dayList</string>
+    <string name="eveningList">eveningList</string>
+    <string name="nightList">nightList</string>
+    <string name="messageList">messageList</string>
+    <string name="title_activity_modify">ModifyActivity</string>
+
+    <string name="lightMode">lightMode</string>
+    <string name="fontStyle">fontStyle</string>
+    <string name="fontSize">fontSize</string>
+
+    <string name="unfinishedVisibility">unfinishedVisibility</string>
+    <string name="sundarGutkaPosition">sundarGutkaPosition</string>
+
+    <string name="quickListArray">quickListArray</string>
+
+</resources>

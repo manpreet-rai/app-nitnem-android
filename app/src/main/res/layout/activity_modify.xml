@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifyActivity">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:tint="@color/back_button_color"
+            android:src="@drawable/ic_back_button"
+            android:background="@null"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heading"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"
+            android:fontFamily="@font/opensansregular"
+            android:textSize="20dp"
+            android:textColor="?mblack"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gurbaniSelectView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topBar"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@+id/saveButtonBackView"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="5dp"/>
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/opensanssemibold"
+        android:textSize="16dp"
+        android:layout_marginBottom="16dp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="Save"
+        android:textColor="?mwhite"
+        android:background="@drawable/customize_btn_background"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:elevation="5dp"/>
+</RelativeLayout>

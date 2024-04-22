@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mcolorPrimary" format="reference"/>
+    <attr name="mcolorPrimaryDark" format="reference"/>
+    <attr name="mcolorAccent" format="reference"/>
+
+    <attr name="mwhite" format="reference"/>
+    <attr name="mblack" format="reference"/>
+    <attr name="mgray" format="reference"/>
+
+    <attr name="mtabInactive" format="reference"/>
+    <attr name="mtabActive" format="reference"/>
+
+    <attr name="mthemedText" format="reference"/>
+    <attr name="mthemedBackground" format="reference"/>
+    <attr name="mthemedBackgroundDark" format="reference"/>
+    <attr name="mthemedBackgroundLight" format="reference"/>
+
+    <attr name="mpitch" format="reference"/>
+
+    <attr name="msplashScreenColor" format="reference"/>
+
+</resources>

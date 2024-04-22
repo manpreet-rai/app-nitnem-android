@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <RelativeLayout
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="It's Morning"
+            android:textSize="20dp"
+            android:fontFamily="@font/opensanssemibold"
+            android:textColor="?mblack"/>
+        <TextView
+            android:id="@+id/recommendationsLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="18dp"
+            android:text="Recommendations for you"
+            android:textSize="13dp"
+            android:fontFamily="@font/opensanssemibold"
+            android:textColor="?mcolorAccent"
+            android:layout_below="@id/timeTextView"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/recommendedView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/recommendedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="7.5dp"
+            android:layout_marginTop="7.5dp"
+            android:text="Japji Sahib"
+            android:fontFamily="@font/opensanssemibold"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="?mthemedText"
+            android:background="@drawable/recommended_background"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/customizeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/customizeButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7.5dp"
+            android:layout_marginBottom="15dp"
+            android:text="+"
+            android:fontFamily="@font/opensanssemibold"
+            android:textSize="34dp"
+            android:textColor="?mwhite"
+            android:background="@drawable/customize_btn_background"/>
+    </RelativeLayout>
+
+</RelativeLayout>

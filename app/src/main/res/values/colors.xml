@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDay">#FFFFFF</color>
+    <color name="colorPrimaryDayDark">#FAFAFA</color>
+    <color name="colorAccentDay">#DF1647</color>
+
+    <color name="whiteDay">#FAFAFA</color>
+    <color name="blackDay">#2C2C2C</color>
+
+    <color name="tabInactiveDay">#96AEAC</color>
+    <color name="tabActiveDay">#2C2C2C</color>
+
+    <color name="redText">#E63E1D</color>
+    <color name="redBackground">#FAD9D3</color>
+    <color name="redBackgroundDark">#F7BFB4</color>
+    <color name="redBackgroundLight">#FAD8D2</color>
+
+    <color name="yellowText">#AC8961</color>
+    <color name="yellowBackground">#FFECD4</color>
+    <color name="yellowBackgroundDark">#FCDFAE</color>
+    <color name="yellowBackgroundLight">#F8E9D1</color>
+
+    <color name="greenText">#76A16D</color>
+    <color name="greenBackground">#D6EFD0</color>
+    <color name="greenBackgroundDark">#C2DBBC</color>
+    <color name="greenBackgroundLight">#E7F0E1</color>
+
+    <color name="blueText">#0C989C</color>
+    <color name="blueBackground">#D0EAEA</color>
+    <color name="blueBackgroundDark">#A3D5D6</color>
+    <color name="blueBackgroundLight">#C3E4E5</color>
+
+    <color name="indigoText">#0773AB</color>
+    <color name="indigoBackground">#CEE4EF</color>
+    <color name="indigoBackgroundDark">#ACD1E3</color>
+    <color name="indigoBackgroundLight">#CDE3EE</color>
+
+    <color name="violetText">#6119A3</color>
+    <color name="violetBackground">#E0D2ED</color>
+    <color name="violetBackgroundDark">#CBB2E1</color>
+    <color name="violetBackgroundLight">#DFD1ED</color>
+
+    <color name="pinkText">#A31977</color>
+    <color name="pinkBackground">#EDD2E4</color>
+    <color name="pinkBackgroundDark">#E1B2D2</color>
+    <color name="pinkBackgroundLight">#EDD1E4</color>
+
+    <color name="grayDay">#E3E3E3</color>
+    <color name="pitchBlack">#000000</color>
+    <color name="pitchWhite">#FFFFFF</color>
+    
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentsView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/contents_view_background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <TextView
+        android:id="@+id/contentIndexTextView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="31"
+        android:textSize="15dp"
+        android:fontFamily="@font/opensanssemibold"
+        android:textColor="?mthemedText"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/contents_index_background"/>
+
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="Japji Sahib"
+        android:textSize="18dp"
+        android:fontFamily="@font/opensansregular"
+        android:textColor="?mblack"
+        android:layout_toRightOf="@id/contentIndexTextView"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:id="@+id/unfinishedIndicatorView"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/unfinished_indicator_background"/>
+
+</RelativeLayout>
+    </RelativeLayout>

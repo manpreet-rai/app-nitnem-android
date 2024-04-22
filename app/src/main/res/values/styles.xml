@@ -1,0 +1,198 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme0" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="colorAccent">@color/greenText</item>
+
+        <item name="mcolorPrimary">@color/colorPrimaryDay</item>
+        <item name="mcolorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="mcolorAccent">@color/greenText</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="mwhite">@color/whiteDay</item>
+        <item name="mblack">@color/blackDay</item>
+        <item name="mgray">@color/grayDay</item>
+
+        <item name="mthemedText">@color/greenText</item>
+        <item name="mthemedBackground">@color/greenBackground</item>
+        <item name="mthemedBackgroundDark">@color/greenBackgroundDark</item>
+        <item name="mthemedBackgroundLight">@color/greenBackgroundLight</item>
+
+        <item name="tabIndicatorColor">@color/greenText</item>
+        <item name="tabTextColor">@color/tabInactiveDay</item>
+        <item name="tabSelectedTextColor">@color/tabActiveDay</item>
+    </style>
+
+    <style name="Theme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="colorAccent">@color/blueText</item>
+
+        <item name="mcolorPrimary">@color/colorPrimaryDay</item>
+        <item name="mcolorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="mcolorAccent">@color/blueText</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="mwhite">@color/whiteDay</item>
+        <item name="mblack">@color/blackDay</item>
+        <item name="mgray">@color/grayDay</item>
+
+        <item name="mthemedText">@color/blueText</item>
+        <item name="mthemedBackground">@color/blueBackground</item>
+        <item name="mthemedBackgroundDark">@color/blueBackgroundDark</item>
+        <item name="mthemedBackgroundLight">@color/blueBackgroundLight</item>
+
+        <item name="tabIndicatorColor">@color/blueText</item>
+        <item name="tabTextColor">@color/tabInactiveDay</item>
+        <item name="tabSelectedTextColor">@color/tabActiveDay</item>
+    </style>
+
+    <style name="Theme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="colorAccent">@color/indigoText</item>
+
+        <item name="mcolorPrimary">@color/colorPrimaryDay</item>
+        <item name="mcolorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="mcolorAccent">@color/indigoText</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="mwhite">@color/whiteDay</item>
+        <item name="mblack">@color/blackDay</item>
+        <item name="mgray">@color/grayDay</item>
+
+        <item name="mthemedText">@color/indigoText</item>
+        <item name="mthemedBackground">@color/indigoBackground</item>
+        <item name="mthemedBackgroundDark">@color/indigoBackgroundDark</item>
+        <item name="mthemedBackgroundLight">@color/indigoBackgroundLight</item>
+
+        <item name="tabIndicatorColor">@color/indigoText</item>
+        <item name="tabTextColor">@color/tabInactiveDay</item>
+        <item name="tabSelectedTextColor">@color/tabActiveDay</item>
+    </style>
+
+    <style name="Theme3" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="colorAccent">@color/violetText</item>
+
+        <item name="mcolorPrimary">@color/colorPrimaryDay</item>
+        <item name="mcolorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="mcolorAccent">@color/violetText</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="mwhite">@color/whiteDay</item>
+        <item name="mblack">@color/blackDay</item>
+        <item name="mgray">@color/grayDay</item>
+
+        <item name="mthemedText">@color/violetText</item>
+        <item name="mthemedBackground">@color/violetBackground</item>
+        <item name="mthemedBackgroundDark">@color/violetBackgroundDark</item>
+        <item name="mthemedBackgroundLight">@color/violetBackgroundLight</item>
+
+        <item name="tabIndicatorColor">@color/violetText</item>
+        <item name="tabTextColor">@color/tabInactiveDay</item>
+        <item name="tabSelectedTextColor">@color/tabActiveDay</item>
+    </style>
+
+    <style name="Theme4" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="colorAccent">@color/pinkText</item>
+
+        <item name="mcolorPrimary">@color/colorPrimaryDay</item>
+        <item name="mcolorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="mcolorAccent">@color/pinkText</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="mwhite">@color/whiteDay</item>
+        <item name="mblack">@color/blackDay</item>
+        <item name="mgray">@color/grayDay</item>
+
+        <item name="mthemedText">@color/pinkText</item>
+        <item name="mthemedBackground">@color/pinkBackground</item>
+        <item name="mthemedBackgroundDark">@color/pinkBackgroundDark</item>
+        <item name="mthemedBackgroundLight">@color/pinkBackgroundLight</item>
+
+        <item name="tabIndicatorColor">@color/pinkText</item>
+        <item name="tabTextColor">@color/tabInactiveDay</item>
+        <item name="tabSelectedTextColor">@color/tabActiveDay</item>
+    </style>
+
+    <style name="Theme5" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="colorAccent">@color/redText</item>
+
+        <item name="mcolorPrimary">@color/colorPrimaryDay</item>
+        <item name="mcolorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="mcolorAccent">@color/redText</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="mwhite">@color/whiteDay</item>
+        <item name="mblack">@color/blackDay</item>
+        <item name="mgray">@color/grayDay</item>
+
+        <item name="mthemedText">@color/redText</item>
+        <item name="mthemedBackground">@color/redBackground</item>
+        <item name="mthemedBackgroundDark">@color/redBackgroundDark</item>
+        <item name="mthemedBackgroundLight">@color/redBackgroundLight</item>
+
+        <item name="tabIndicatorColor">@color/redText</item>
+        <item name="tabTextColor">@color/tabInactiveDay</item>
+        <item name="tabSelectedTextColor">@color/tabActiveDay</item>
+    </style>
+
+    <style name="Theme6" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDay</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="colorAccent">@color/yellowText</item>
+
+        <item name="mcolorPrimary">@color/colorPrimaryDay</item>
+        <item name="mcolorPrimaryDark">@color/colorPrimaryDayDark</item>
+        <item name="mcolorAccent">@color/yellowText</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="mwhite">@color/whiteDay</item>
+        <item name="mblack">@color/blackDay</item>
+        <item name="mgray">@color/grayDay</item>
+
+        <item name="mthemedText">@color/yellowText</item>
+        <item name="mthemedBackground">@color/yellowBackground</item>
+        <item name="mthemedBackgroundDark">@color/yellowBackgroundDark</item>
+        <item name="mthemedBackgroundLight">@color/yellowBackgroundLight</item>
+
+        <item name="tabIndicatorColor">@color/yellowText</item>
+        <item name="tabTextColor">@color/tabInactiveDay</item>
+        <item name="tabSelectedTextColor">@color/tabActiveDay</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabRippleColor">@color/colorPrimaryDay</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabIndicatorFullWidth">false</item>
+        <item name="tabTextAppearance">@style/tab_text</item>
+    </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/opensansregular</item>
+    </style>
+</resources>
